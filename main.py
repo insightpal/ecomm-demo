@@ -29,7 +29,7 @@ st.title("E-commerce Sales Analysis")
 st.subheader("Explore Sales Data")
 
 # Create multiple tabs using st.submenu
-tabs = st.radio("Select a Tab:", ("Overview", "Product Analysis", "Date Analysis", "Data Visualization"))
+tabs = st.radio("Select a Tab:", ("Data Visualization", "Product Analysis", "Date Analysis", "Overview"))
 
 if tabs == "Overview":
     st.write("## Sales Overview")
